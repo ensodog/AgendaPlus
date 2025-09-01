@@ -1,0 +1,59 @@
+body {
+  background-color: #fdf6e3;
+}
+
+p {
+  color: #5c5c5c;
+}
+nav,
+footer {
+  background-color: #457b9d;
+}
+footer {
+  height: 12vh;
+}
+h1 {
+  color: #2c4875;
+}
+.btn {
+  background-color: #5dbbba;
+  border: 0;
+}
+.cor {
+  background-color: #a8dadc;
+}
+.servicos {
+  background-color: #a8dadc;
+  text-align: center;
+  border-radius: 20px;
+
+  width: 50vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.area {
+  border-radius: 40px;
+  text-align: center;
+  background-color: #a8dadc;
+  margin: 10px;
+}
+.bt {
+  margin-bottom: 10px;
+}
+.tamanho {
+  font-size: 30px;
+}
+.arredondar {
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.passo {
+  background-color: #a8dadc;
+  text-align: center;
+  margin: 10px;
+  border-radius: 20px;
+}
+.imgpasso {
+  height: 15vh;
+}
