@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Página Inicial - Agenda+</title>
+    <title>ACADEMIA PERSONALE SALUTARE - Agenda+</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link href="styles.css" rel="stylesheet" />
+    <link href="servicos.css" rel="stylesheet" />
   </head>
   <body class="lightmode">
     <nav class="navbar">
@@ -108,251 +109,218 @@
         </div>
       </div>
     </nav>
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="images/esportes.jpeg"
-            class="d-block w-100"
-            alt="Esportes"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="images/estetica.jpeg"
-            class="d-block w-100"
-            alt="Estética"
-          />
-        </div>
-        <div class="carousel-item">
-          <img src="images/saude.jpeg" class="d-block w-100" alt="Saúde" />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExample"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExample"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="display-6 mx-auto servicos">ÁREAS:</h1>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <div class="area">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/53/53283.png"
-              height="75px"
-            />
-            <p class="lead fw-bold">Quadras</p>
-            <p class="lead">Quadras esportivas e <br />campos society</p>
-            <a type="button" class="btn btn-primary bt" href="quadras.html"
-              >Acessar</a
-            >
+          <div class="card mb-3 esp cardfundo">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="https://alotrifronteira.com.br/assets/uploads/patrocinados/6630faeb8bf50rx8e4p.jpg"
+                  class="img-fluid imgcard"
+                  alt="..."
+                  style="max-height: 150px"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h1>ACADEMIA PERSONALE SALUTARE</h1>
+                  <p class="card-text">
+                    Rua Minas Gerais, Sala, Centro, Barracão , PR, CEP:
+                    85700-000
+                  </p>
+                </div>
+                <p class="d-inline-flex gap-1">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse1"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Informações gerais
+                  </button>
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse2"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Regras de cancelamento
+                  </button>
+                </p>
+                <div class="collapse" id="collapse1">
+                  <p class="lead">
+                    Força, foco e transformação. <br />
+                    Aumente sua potência, supere seus limites e conquiste seus
+                    objetivos na musculação.
+                  </p>
+                </div>
+                <div class="collapse" id="collapse2">
+                  <p class="lead">
+                    Cancelamento gratuito com 1 horas de antecedência
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <div class="area">
-            <img
-              src="https://www.pngplay.com/wp-content/uploads/7/Health-Logo-PNG-Clipart-Background.png"
-              height="75px"
-            />
-            <p class="lead fw-bold">Médicos</p>
-            <p class="lead">Médicos e clinícas<br />médicas em geral</p>
-            <a type="button" class="btn btn-primary bt" href="medicos.html"
-              >Acessar</a
-            >
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <div class="area">
-            <img
-              src="https://png.pngtree.com/png-vector/20240705/ourmid/pngtree-barber-logo-black-and-white-vector-png-image_7064236.png"
-              height="75px"
-            />
-            <p class="lead fw-bold">Barbearias</p>
-            <p class="lead">Barbearias e<br />barbeiros</p>
-            <a type="button" class="btn btn-primary bt" href="barbeiros.html"
-              >Acessar</a
-            >
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <div class="area">
-            <img
-              src="https://img.pikbest.com/png-images/20250116/black-and-white-stylized-female-minimalist-beauty-logo-design_11394097.png!sw800"
-              height="75px"
-            />
-            <p class="lead fw-bold">Salões de beleza</p>
-            <p class="lead">Salões de beleza e<br />cabeleleiras</p>
-            <a
-              type="button"
-              class="btn btn-primary bt"
-              href="salaodebeleza.html"
-              >Acessar</a
-            >
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <div class="area">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/3997/3997942.png"
-              height="75px"
-            />
-            <p class="lead fw-bold">Saúde mental</p>
-            <p class="lead">Psicologos e<br />psquiatras</p>
-            <a type="button" class="btn btn-primary bt" href="saudemental.html"
-              >Acessar</a
-            >
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <div class="area">
-            <img
-              src="https://img.pikbest.com/png-images/20241018/minimalist-tooth-logo-design-for-dental-services_10973918.png!sw800"
-              height="75px"
-            />
-            <p class="lead fw-bold">Odontologia</p>
-            <p class="lead">Dentistas e clinícas<br />odontológicas</p>
-            <a type="button" class="btn btn-primary bt" href="odontologia.html"
-              >Acessar</a
-            >
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <div class="area">
-            <img
-              src="http://images.vexels.com/media/users/3/139752/isolated/preview/532e26143a0435e9c6ca7f436474389f-books-icon.png"
-              height="75px"
-            />
-            <p class="lead fw-bold">Estudos</p>
-            <p class="lead">
-              Cursos de idiomas e<br />professores particulares
-            </p>
-            <a type="button" class="btn btn-primary bt" href="estudos.html"
-              >Acessar</a
-            >
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <div class="area">
-            <img
-              src="https://static.vecteezy.com/system/resources/thumbnails/018/931/682/small_2x/black-dumbbells-icon-png.png"
-              height="75px"
-            />
-            <p class="lead fw-bold">Treinamentos</p>
-            <p class="lead">Academias e <br />personal trainers</p>
-            <a type="button" class="btn btn-primary bt" href="treinamentos.html"
-              >Acessar</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container cor arredondar">
-      <div class="row">
-        <div
-          class="col-12 col-md-5 col-lg-6 d-flex align-items-center justify-content-center"
-        >
-          <img src="images/gestores.png" height="250px" />
-        </div>
-        <div
-          class="col-12 col-md-5 col-lg-6 d-flex align-items-center justify-content-center text-center"
-        >
-          <h1 class="display-6 fw-bold">
-            Se você possui um serviço e deseja integrar-lo ao Agenda+ entre em
-            contato conosco: agendaplus@gmail.com
-          </h1>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
         <div class="col-12">
-          <h1 class="display-6 mx-auto servicos">PASSO À PASSO:</h1>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="passo">
-            <img class="imgpasso" src="images/celular.png" />
-            <p class="lead">Busque o serviço</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="passo">
-            <img class="imgpasso" src="images/agenda.png" />
-            <p class="lead">Agende um horário</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4">
-          <div class="passo">
-            <img class="imgpasso" src="images/sucesso.png" />
-            <p class="lead">Realize o pagamento e pronto!</p>
+          <div class="card mb-3 esp cardfundo">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="images/pedicure.jpg"
+                  class="img-fluid imgcard"
+                  alt="..."
+                  style="max-height: 150px"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5>Agendamento aula experimental</h5>
+                  <p class="card-text">
+                    Rua Minas Gerais, Sala, Centro, Barracão , PR, CEP:
+                    85700-000
+                  </p>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          08:00 - 09:00
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          09:00 - 10:00
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          10:00 - 11:00
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          11:00 - 12:00
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          13:00 - 14:00
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          14:00 - 15:00
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          15:00 - 16:00
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          16:00 - 17:00
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="checkDefault"
+                        />
+                        <label class="form-check-label lead" for="checkDefault">
+                          17:00 - 18:00
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-12 esp">
+                      <button type="button" class="btn btn-primary">
+                        Agendar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="display-6 mx-auto servicos">PERGUNTAS FREQUENTES:</h1>
-        </div>
-        <div class="col-6">
-          <p class="lead fw-bold">"Preciso pagar para utilizar o site?"</p>
-          <p clss="lead">Não. Você só realizará o pagamento do agendamento.</p>
-        </div>
-        <div class="col-6">
-          <p class="lead fw-bold">
-            "É necessário criar uma conta para utilizar o site?"
-          </p>
-          <p clss="lead">
-            Não. Você só precisará de uma conta, caso deseje agendar um horário.
-          </p>
-        </div>
-        <div class="col-6">
-          <p class="lead fw-bold">"Qual o valor de agendamento?"</p>
-          <p clss="lead">
-            O valor de agendamento é definido pela empresa, portanto, pode
-            variar.
-          </p>
-        </div>
-        <div class="col-6">
-          <p class="lead fw-bold">"Posso cancelar um agendamento?"</p>
-          <p clss="lead">
-            Sim. Porém você deve respeitar as condições de cancelamento da
-            empresa.
-          </p>
-        </div>
-        <div class="col-6">
-          <p class="lead fw-bold">"Quais métodos de pagamento são aceitos?"</p>
-          <p clss="lead">
-            Cartão de crédito, débito e pix via plataforma. Dinheiro
-            presencialmente.
-          </p>
-        </div>
-        <div class="col-6">
-          <p class="lead fw-bold">
-            "Como faço para implementar meu serviço na plataforma?"
-          </p>
-          <p clss="lead">
-            Entre em contato consco para debatermos nossas ofertas.
-          </p>
-        </div>
-      </div>
-    </div>
+
     <footer>
       <div class="container">
         <div class="row">
