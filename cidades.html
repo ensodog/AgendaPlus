@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Treinamentos - Agenda+</title>
+    <title>Cidades - Agenda+</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,9 +11,8 @@
       crossorigin="anonymous"
     />
     <link href="styles.css" rel="stylesheet" />
-    <link href="servicos.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="lightmode">
     <nav class="navbar">
       <div class="container-fluid">
         <div class="ms-auto">
@@ -38,7 +37,7 @@
               />
             </svg>
           </a>
-          <a type="button" class="btn btn-primary botfotenav" href="...">
+          <a type="button" class="btn btn-primary botfotenav" href="sobre.html">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25px"
@@ -53,7 +52,11 @@
               />
             </svg>
           </a>
-          <a type="button" class="btn btn-primary botfotenav" href="...">
+          <a
+            type="button"
+            class="btn btn-primary botfotenav"
+            href="cidades.html"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25px"
@@ -111,101 +114,28 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="card esp cardfundo">
-            <div class="card-header">
-              <h1 class="display-6">Treinamentos</h1>
-            </div>
-            <div class="card-body container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="card mb-3 esp cardfundo" style="max-width: 540px">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img
-                          src="https://alotrifronteira.com.br/assets/uploads/patrocinados/67807dc158afflxeh2r.jpg"
-                          class="img-fluid imgcard"
-                          alt="..."
-                        />
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5>RAFAEL MOURA PERSONAL TRAINER</h5>
-                          <p class="card-text">Barracão , PR, CEP: 85700-000</p>
-                          <a
-                            type="button"
-                            class="btn btn-primary"
-                            href=",,,,,,,,.html"
-                            >Acessar</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="card mb-3 esp cardfundo" style="max-width: 540px">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img
-                          src="https://alotrifronteira.com.br/assets/uploads/patrocinados/686c096e54e09kect55.jpg"
-                          class="img-fluid imgcard"
-                          alt="..."
-                        />
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5>ACADEMIA BIO+</h5>
-                          <p class="card-text">
-                            Rua Irineu R Anderli, 30, Sala, Centro, Barracão ,
-                            PR, CEP: 85700-000
-                          </p>
-                          <a
-                            type="button"
-                            class="btn btn-primary"
-                            href="treinamentobio.html"
-                            >Acessar</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="card mb-3 esp cardfundo" style="max-width: 540px">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img
-                          src="https://alotrifronteira.com.br/assets/uploads/patrocinados/6630faeb8bf50rx8e4p.jpg"
-                          class="img-fluid imgcard"
-                          alt="..."
-                        />
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5>ACADEMIA PERSONALE SALUTARE</h5>
-                          <p class="card-text">
-                            Rua Minas Gerais, Sala, Centro, Barracão , PR, CEP:
-                            85700-000
-                          </p>
-                          <a
-                            type="button"
-                            class="btn btn-primary"
-                            href=",,,,,,,,,.html"
-                            >Acessar</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="container col-12">
+          <h1 class="display-6 text-center">Cidades Disponíveis</h1>
+          <div class="card col-12 espaco cardfundo">
+            <p class="lead">
+              Confira as cidades onde nossos serviços estão disponíveis:
+            </p>
+            <input
+              type="text"
+              id="buscarCidade"
+              placeholder="Buscar cidade..."
+              class="col-10"
+            />
+            <ul>
+              <li class="lead">Dionísio Cerqueira</li>
+              <li class="lead">Barracão</li>
+              <li class="lead">Santo Antônio</li>
+              <li class="lead">Bom Jesus Do Sul</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-
     <footer>
       <div class="container">
         <div class="row">
